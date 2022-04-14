@@ -1,0 +1,52 @@
+Save what I have to github
+    Make a new project on github
+    Add .gitignore (mainly to avoid uploading the vendor code and build code)
+    Push to github
+
+Change color to cool theme
+
+Save and load file
+    make a menu button in editor window with options: save, load
+    implement save and load in editor window
+
+Note: Editor should be mostly functional by this point
+
+Hide windows title bar and make app full-screen
+    Add an in-app imgui title bar with a close button to close the entire app
+
+Add ability to use terminal
+    read in user command and pass to terminal (need to figure out how to do this)
+    then record the output and print to the terminal in the editor
+
+Add line numbers to editor
+    how can this be done?  Is there an editor widget that I could use?
+
+Add tabs to editor
+
+Add ability to split editor
+    vertical and horizontal????
+
+Add command and input modes
+    make display showing which mode user is currently in at bottom of editor
+    add basic movement controls (left, right, up down) with vim controls
+
+Get a basic text editor working (similar to notepad)
+    Window Options: No Close.  Unsaved document.
+    Changing Global Alpha can make all windows semi-transparent to see glfw clear color
+    find height of decoration so that we can integrate that into InputText box size (needs to be smaller by decoration size)
+        Frame Padding (vertical) and font size (of decoration) can be used to find decoration height
+    enter text
+    save
+    load
+    make editor transparent (need to make glfw window transparent)
+    Collapsing of windows should animate them... this could be tricky, but very cool looking!
+        Go back to game design here - create variables to hold window width and animate them accordingly
+    Hide window frame, and add close button to editor window - this button should shut down the app
+    save to github
+    make default controls similar to vim
+    make tab controls similar to tmux
+    animate tabs so that they scroll....?
+    make the theme based on 'aliens'/80s sci fi
+
+Why make this?  It's fun, and a lot of companies (Ubisoft, Blizzard, Nvidia, etc) use ImGui
+    so the job prospects will be better than using some random thing no one knows or making my own
